@@ -1,6 +1,7 @@
 PanoJS 1.0.2 (SVN)
 	* renamed project to PanoJS
 	* change license to Apache License 2.0
+	* move project to Google Code
 
 GSIV 1.0.1 (2006-03-16):
 	* added localization for two warning messages
