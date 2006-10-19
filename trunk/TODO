@@ -1,0 +1,8 @@
+TODO:
+----
+[+] fix funkiness with mouse position when manually moving the viewer, and when allowing scrolling to occur in only in one direction
+[+] better handling of fitToWindow/resize
+[+] addControlHandler method for new controls
+[+] thumbnail index to identify location in main image
+[+] add example for placing markers on the image
+[+] ensure mouse cursors are working (they seem to not be)
