@@ -255,6 +255,12 @@ PanoJS.prototype = {
 				this.zoomLevel += 1;
 				fullSize *= 2;
 			} while (fullSize < Math.max(this.width, this.height));
+			// take into account picture smaller than window size
+			if (this.zoomLevel > this.maxZoomLevel) {
+				var diff = this.zoomLevel - this.maxZoomLevel;
+				this.zoomLevel = this.maxZoomLevel;
+				fullSize /= Math.pow(2, diff);
+			}
 		}
 
 		// move top level up and to the left so that the image is centered
