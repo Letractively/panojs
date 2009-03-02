@@ -7,7 +7,7 @@ take an image of arbitrary size and create tiles of any size.
 python tilemaker.py -s256 -Q9 -t"tile-%d-%d-%d.png" -bFFFFFF -v canvas.png
 
 Copyright, 2005-2006: Michal Migurski, Serge Wroclawski
-License: GPL
+License: Apache 2.0
 """
 
 import math
