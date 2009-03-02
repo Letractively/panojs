@@ -567,11 +567,15 @@ PanoJS.prototype = {
 	zoom : function(direction) {
 		// ensure we are not zooming out of range
 		if (this.zoomLevel + direction < 0) {
-			alert(PanoJS.MSG_BEYOND_MIN_ZOOM);
+			if (PanoJS.MSG_BEYOND_MIN_ZOOM) {
+				alert(PanoJS.MSG_BEYOND_MIN_ZOOM);
+			}
 			return;
 		}
 		else if (this.zoomLevel + direction > this.maxZoomLevel) {
-			alert(PanoJS.MSG_BEYOND_MAX_ZOOM);
+			if (PanoJS.MSG_BEYOND_MAX_ZOOM) {
+				alert(PanoJS.MSG_BEYOND_MAX_ZOOM);
+			}
 			return;
 		}
 
