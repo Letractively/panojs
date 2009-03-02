@@ -1,5 +1,5 @@
 /**
- * Panoramic JavaScript Image Viewer (PanoJS) 1.0
+ * Panoramic JavaScript Image Viewer (PanoJS) 1.0.2
  *
  * Generates a draggable and zoomable viewer for images that would
  * be otherwise too large for a browser window.  Examples would include
