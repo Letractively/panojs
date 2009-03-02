@@ -176,6 +176,7 @@ PanoJS.VIEWERS = [];
 
 // utility functions
 PanoJS.isInstance = function(object, clazz) {
+	// FIXME: can this just be replaced with instanceof operator? It has been reported that __proto__ is specific to Netscape
 	while (object != null) {
 		if (object == clazz.prototype) {
 			return true;
@@ -790,6 +791,7 @@ PanoJS.prototype = {
 
 	// QUESTION: where is the best place for this method to be invoked?
 	resetSlideMotion : function() {
+		// QUESTION: should this be > 0 ?	
 		if (this.slideMonitor != 0) {
 			clearTimeout(this.slideMonitor);
 			this.slideMonitor = 0;
