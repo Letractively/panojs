@@ -1,0 +1,10 @@
+#summary A collection of demos.
+
+= Overview =
+
+This page provides a list of demos showing PanoJS in action.
+
+== Demo list ==
+
+  * [http://disequilibrium.com/panpm/ Photo mosaic]
+  * [http://pippin.gimp.org/lgm2006/ GEGL presentation at LibreGraphicsMeeting 2006]
