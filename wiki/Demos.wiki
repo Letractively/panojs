@@ -1,4 +1,5 @@
 #summary A collection of demos.
+#labels Featured
 
 = Overview =
 
