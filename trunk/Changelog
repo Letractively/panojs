@@ -1,7 +1,9 @@
-PanoJS 1.0.2 (SVN)
+PanoJS 1.0.2 (2009-01-01):
 	* renamed project to PanoJS
 	* change license to Apache License 2.0
 	* move project to Google Code
+	* respect max zoom level when scaling to window
+	* don't alert if max zoom size is exceeded when message is null
 
 GSIV 1.0.1 (2006-03-16):
 	* added localization for two warning messages
