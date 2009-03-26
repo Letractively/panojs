@@ -21,8 +21,7 @@
 }
 #viewer .surface {
 	z-index: 20;
-	/*background: url(../gfx/center.gif) no-repeat center center;*/
-		_background: url(../gfx/blank.gif) no-repeat center center; /* NOTE: required for IE to"see" the surface */
+		*background: url(../gfx/blank.gif) no-repeat center center; /* NOTE: required for IE to"see" the surface */
 }
 #viewer .well {
 	overflow: hidden;
